@@ -1,6 +1,6 @@
 {
-    "name": "Message DeletEr Bot",
-    "description": "Modular  Telegram Bot powered by @PyroGram!",
+    "name": "BannemooN BoT",
+    "description": "https://t.me/GapemooN",
     "keywords": [
         "telegram",
         "bot",
@@ -12,21 +12,21 @@
         "administrators",
         "messages"
     ],
-    "repository": "https://github.com/SpEcHiDe/DeleteMessagesRoBot",
-    "website": "https://telegram.dog/SpEcHlDe",
-    "success_url": "https://t.me/SpEcHlDe/857",
+    "repository": "https://github.com/impta/BannemooN",
+    "website": "https://telegram.dog/GapemooN",
+    "success_url": "https://t.me/GapemooN",
     "env": {
-        "APP_ID": {
+        "api_hash": {
             "description": "Get this value from my.telegram.org! Please do not steal"
         },
-        "API_HASH": {
+        "api_id": {
             "description": "Get this value from my.telegram.org! Please do not steal"
         },
-        "TG_BOT_TOKEN": {
-            "description": "Obtain a Telegram bot token by contacting @BotFather"
+        "phone_number": {
+            "description": "شماره اون اکانته رو بزن"
         },
-        "TG_USER_SESSION": {
-            "description": "Create a PyroGram User Session, using https://generatestringsession.spechide.repl.run/"
+        "group": {
+            "description": "آی دی اون گروه تخمیشونم بزن بدون اَدساین"
         }
     },
     "buildpacks": [{
